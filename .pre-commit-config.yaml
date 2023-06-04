@@ -10,12 +10,3 @@ repos:
     - id: terraform_tfsec
       verbose: true
     - id: terraform_validate
-
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.4.0
-  hooks:
-    - id: check-merge-conflict
-    - id: trailing-whitespace
-      args: [--markdown-linebreak-ext=md]
-    - id: mixed-line-ending
-      args: ['--fix=lf']
