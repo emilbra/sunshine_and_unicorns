@@ -21,7 +21,7 @@ func TestTerraformOutputs(t *testing.T) {
 	expected_rg_name := "myRG"
 
 	// or use the GetVariableAsStringFromVarFile - function to get inputs from a varfile
-	// the third option corresponds to a specific variable name as defined in the file.
+	// the third option in the function corresponds to a specific variable name as defined in the file.
 	// this is the preferred option.
 	
 	expected_location := terraform.GetVariableAsStringFromVarFile(t, "../test.tfvars", "rg_location")
