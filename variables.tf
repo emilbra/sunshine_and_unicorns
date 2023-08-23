@@ -9,7 +9,3 @@ variable "rg_location" {
 variable "my_kv_name" {
   type = string
 }
-
-variable "my_tenant_id" {
-  type = string
-}
